@@ -1,0 +1,86 @@
+[
+    {
+        "filename":"B-001",
+        "template" : "surat_tugas_dalam_kota_template.docx",
+        "replacements" : {
+            "{{NoSurat}}":      "B-0001/64713/VS.330/2025",
+            "{{TanggalSurat}}": "3 Februari 2026",
+            "{{Nama}}":         "Rizqi Aul",
+            "{{NoID}}":         "19970578979797981001",
+            "{{PangkatGol}}":   "Penata Muda/IIIb",
+            "{{Jabatan}}":      "Pranata Komputer Ahli Pertama Komputer Ahli Pertama",
+            "{{Tugas}}":        "Pengawasan Lapangan Survei Sosial Ekonomi Nasional",
+            "{{Tujuan}}":       "Balikpapan",
+            "{{TanggalTugas}}": "3 Februari - 10 Maret 2026",
+            "{{MAK}}":          ", dengan pembebanan 2904.BMA.006.005.A.524113"
+        },
+        "includedBlocks" :[
+            ["[[VISUM_KUNJUNGAN_START]]", "[[VISUM_KUNJUNGAN_END]]",true],
+            ["[[LAPORAN_TRANSPORT_START]]", "[[LAPORAN_TRANSPORT_END]]", true],
+            ["[[SURAT_PERNYATAAN_START]]", "[[SURAT_PERNYATAAN_END]]", true]
+        ]
+    },
+    {
+        "filename":"B-002",
+        "template" : "surat_tugas_dalam_kota_template.docx",
+        "replacements" : {
+            "{{NoSurat}}":      "B-0002/64713/VS.330/2025",
+            "{{TanggalSurat}}": "3 Februari 2026",
+            "{{Nama}}":         "Nahar Ridlo",
+            "{{NoID}}":         "197896766789698798701",
+            "{{PangkatGol}}":   "Penata Muda/IIIa",
+            "{{Jabatan}}":      "Pranata Komputer Ahli Pertama",
+            "{{Tugas}}":        "Pengawasan Lapangan Survei Sosial Ekonomi Nasional",
+            "{{Tujuan}}":       "Balikpapan",
+            "{{TanggalTugas}}": "3 Februari - 10 Maret 2026",
+            "{{MAK}}":          ", dengan pembebanan 2904.BMA.006.005.A.524113"
+        },
+        "includedBlocks" :[
+            ["[[VISUM_KUNJUNGAN_START]]", "[[VISUM_KUNJUNGAN_END]]",false],
+            ["[[LAPORAN_TRANSPORT_START]]", "[[LAPORAN_TRANSPORT_END]]", true],
+            ["[[SURAT_PERNYATAAN_START]]", "[[SURAT_PERNYATAAN_END]]", true]
+        ]
+    },
+    {
+        "filename":"B-007",
+        "template" : "surat_tugas_dalam_kota_template.docx",
+        "replacements" : {
+            "{{NoSurat}}":      "B-0003/64713/VS.330/2025",
+            "{{TanggalSurat}}": "3 Februari 2026",
+            "{{Nama}}":         "Isra Syukria",
+            "{{NoID}}":         "19970578979797981001",
+            "{{PangkatGol}}":   "Penata Muda/IIIb",
+            "{{Jabatan}}":      "Pranata Komputer Ahli Pertama Komputer Ahli Pertama",
+            "{{Tugas}}":        "Pengawasan Lapangan Survei Sosial Ekonomi Nasional",
+            "{{Tujuan}}":       "Balikpapan",
+            "{{TanggalTugas}}": "3 Februari - 10 Maret 2026",
+            "{{MAK}}":          ", dengan pembebanan 2904.BMA.006.005.A.524113"
+        },
+        "includedBlocks" :[
+            ["[[VISUM_KUNJUNGAN_START]]", "[[VISUM_KUNJUNGAN_END]]",false],
+            ["[[LAPORAN_TRANSPORT_START]]", "[[LAPORAN_TRANSPORT_END]]", false],
+            ["[[SURAT_PERNYATAAN_START]]", "[[SURAT_PERNYATAAN_END]]", true]
+        ]
+    },
+    {
+        "filename":"B-008",
+        "template" : "surat_tugas_dalam_kota_template.docx",
+        "replacements" : {
+            "{{NoSurat}}":      "B-0004/64713/VS.330/2025",
+            "{{TanggalSurat}}": "3 Februari 2026",
+            "{{Nama}}":         "Sabrina",
+            "{{NoID}}":         "19970578979797981001",
+            "{{PangkatGol}}":   "Penata Muda/IIIa",
+            "{{Jabatan}}":      " Statistsi Pertama",
+            "{{Tugas}}":        "Pengawasan Lapangan Survei Sosial Ekonomi Nasional",
+            "{{Tujuan}}":       "Balikpapan",
+            "{{TanggalTugas}}": "3 Februari - 10 Maret 2026",
+            "{{MAK}}":          ", dengan pembebanan 2904.BMA.006.005.A.524113"
+        },
+        "includedBlocks" :[
+            ["[[VISUM_KUNJUNGAN_START]]", "[[VISUM_KUNJUNGAN_END]]",true],
+            ["[[LAPORAN_TRANSPORT_START]]", "[[LAPORAN_TRANSPORT_END]]", false],
+            ["[[SURAT_PERNYATAAN_START]]", "[[SURAT_PERNYATAAN_END]]", false]
+        ]
+    }
+]

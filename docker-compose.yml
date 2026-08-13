@@ -1,0 +1,24 @@
+services:
+  doc-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: go_doc_service
+    ports:
+      - "8181:8080"
+    volumes:
+      # [LOCAL PATH]:[CONTAINER PATH]
+      # Map your output folder
+      - ./output:/app/output
+      # Map your template folder
+      - ./template:/app/template
+      
+    environment:
+      - TZ=Asia/Makassar
+      - SOFFICE_PATH=/usr/bin/soffice
+      - PYTHON_CMD=python3
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+    restart: unless-stopped
