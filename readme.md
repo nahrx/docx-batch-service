@@ -1,4 +1,4 @@
-# Agenda Surat — Document Generator Service
+# Docx Batch Service
 
 An HTTP service that generates official letters (_surat tugas_, SPK, BAST, etc.) in bulk from `.docx` templates. Send a batch of JSON jobs, get back a single ZIP containing the generated DOCX files and their PDF conversions.
 
