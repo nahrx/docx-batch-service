@@ -53,8 +53,8 @@ var libreOfficeSem = make(chan struct{}, 1)
 func main() {
 	os.MkdirAll(outputDir, 0755)
 	http.HandleFunc("/documents/generate", cors(documentsHandler))
-	log.Println("Listening on :8088")
-	log.Fatal(http.ListenAndServe(":8088", nil))
+	log.Println("Listening on :8080")
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 func cors(fn http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
